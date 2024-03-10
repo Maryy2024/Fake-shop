@@ -1,0 +1,88 @@
+.card {
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 20px;
+  }
+
+  .size {
+    max-width: 20%;
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  .size .card {
+    width: 18rem;
+  }
+
+  .size .card:hover {
+    box-shadow: 5px 5px 10px #888888;
+    transition: 1s;
+  }
+  
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card .card-body {
+    padding: 0;
+    margin-top: 17px;
+  }
+  .card .price {
+    text-align: right;
+    color: red;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card p.truncate {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* Number of lines to show */
+      -webkit-box-orient: vertical;
+      max-width: 200px;
+      max-height: 5rem;
+  }
+  
+  .card h5.truncate {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+      height: 3rem;
+    }
+    .buttons {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .btn {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .buttons .btn-primary {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+
+    .buttons .btn-primary:active {
+      transform: translateY(-3px);
+    }
+
+
+    .buttons .btn-danger {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      transform: translateY(-2px);
+    }
+
+    .buttons .btn-danger:active {
+      transform: translateY(-3px);
+    }
+
+
